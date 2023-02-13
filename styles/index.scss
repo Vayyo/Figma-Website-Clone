@@ -388,7 +388,7 @@
       top: 0;
       right: 0;
       transform: translate(30%, -30%);
-      background: url(/img/who-we-are/dots.svg) no-repeat center/contain;
+      background: url(../img/who-we-are/dots.svg) no-repeat center/contain;
     }
     &::after {
       inset: 0 0 0 0;
@@ -564,7 +564,7 @@ footer {
       height: min(100%, 300px);
       inset: auto 0 0 0;
       transform: translateY(20%);
-      background: url(/img/footer/footer-vector.svg) no-repeat center/cover;
+      background: url(../img/footer/footer-vector.svg) no-repeat center/cover;
     }
 
     > .text-box {
