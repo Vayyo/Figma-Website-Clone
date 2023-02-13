@@ -1,0 +1,29 @@
+%flex-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex($justify_content: null, $align_items: null, $flex_direc: null) {
+  @extend %flex-display;
+  @if $justify_content {
+    justify-content: $justify_content;
+  }
+  @if $align_items {
+    align-items: $align_items;
+  }
+  @if $flex_direc {
+    flex-direction: $flex_direc;
+  }
+}
+
+@mixin screen_size($breakpoint) {
+  @if ($breakpoint == medium) {
+    @media (max-width: 750px) {
+      @content;
+    }
+  }
+  @if ($breakpoint == small) {
+    @content;
+  }
+}
