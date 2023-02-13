@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&family=Source+Serif+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="/index.js" defer></script>
+    <title>Tour Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="logo">UNWIND<span>CABINS</span></p>
+      <div class="box">
+        <p class="nav-toggle">Menu</p>
+        <nav class="nav">
+          <ul class="menu">
+            <li class="items"><a href="#">Our cabins</a></li>
+            <li class="items"><a href="#">Get inspired</a></li>
+            <li class="items"><a href="#">Gift a stay</a></li>
+            <li class="items"><a href="#">About us</a></li>
+          </ul>
+        </nav>
+        <div class="user-icon">
+          <i class="fa-solid fa-circle-user"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="content">
+        <h2 class="heading">Leave the office behind and <span>unwind</span></h2>
+        <p class="info">
+          Welcome to our cozy cabin nestled in the heart of the mountains! Our
+          cabin is the perfect getaway for those seeking peace and relaxation in
+          a natural setting.
+        </p>
+        <div class="users-reviews">
+          <div class="users">
+            <div class="image"><img src="img/people/1.png" alt="" /></div>
+            <div class="image"><img src="img/people/2.png" alt="" /></div>
+            <div class="image"><img src="img/people/3.png" alt="" /></div>
+            <div class="image"><img src="img/people/4.png" alt="" /></div>
+            <div class="image"><img src="img/people/5.png" alt="" /></div>
+          </div>
+          <div class="ratings">
+            <p class="text"><i class="fa-solid fa-star"></i>Trustpilot</p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="img/hero-bg/hero-bg.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="search-bars">
+      <label class="search-bar">
+        <i class="fa-solid fa-map"></i>
+        <input
+          class="search-location"
+          type="text"
+          placeholder="I want to go"
+          required
+        />
+      </label>
+      <label class="search-bar">
+        <i class="fa-regular fa-calendar"></i>
+        <input class="check-in" type="text" placeholder="Check in" required />
+      </label>
+      <label class="search-bar">
+        <i class="fa-regular fa-calendar"></i>
+        <input class="check-out" type="text" placeholder="Check out" required />
+      </label>
+      <label class="search-bar">
+        <i class="fa-solid fa-user-group"></i>
+        <input
+          class="travellers"
+          type="text"
+          placeholder="Travellers"
+          required
+        />
+      </label>
+      <label class="search-bar">
+        <input
+          type="button"
+          class="find-btn btn"
+          value="Find available cabins"
+        />
+      </label>
+    </section>
+
+    <section class="cabin-cards section-card">
+      <div class="inner-box">
+        <h3 class="title">Discover our idyllic countryside cabins</h3>
+        <div class="container">
+          <p class="sub-title">
+            Fully equipped kitchen and bathroom with plenty of walking and
+            cycling routes to explore.
+          </p>
+          <a href="#" class="view-all">view all cabins</a>
+        </div>
+
+        <div class="cards-box">
+          <div class="card">
+            <i class="fa-regular fa-heart favourite"></i>
+            <div class="img-box">
+              <img src="img/card-imgs/1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="item-box">
+                <p class="location tag-text">Hampshire · England</p>
+                <div class="text-box">
+                  <p class="name">Rustic country retreat</p>
+                  <p class="price">£210pp</p>
+                </div>
+              </div>
+              <div class="item-box">
+                <p class="info">
+                  Step outside and take in the stunning views. Our cabin sits on
+                  a quiet and secluded property, providing the perfect setting
+                  for a peaceful retreat.
+                </p>
+
+                <div class="item-reviews">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>82 reviews</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa-regular fa-heart favourite"></i>
+            <div class="img-box">
+              <img src="img/card-imgs/2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="item-box">
+                <p class="location tag-text">Norfolk · England</p>
+                <div class="text-box">
+                  <p class="name">Cozy getaway cabin</p>
+                  <p class="price">£312pp</p>
+                </div>
+              </div>
+              <div class="item-box">
+                <p class="info">
+                  Step outside and take in the stunning views. Our cabin sits on
+                  a quiet and secluded property, providing the perfect setting
+                  for a peaceful retreat.
+                </p>
+
+                <div class="item-reviews">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>82 reviews</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa-regular fa-heart favourite"></i>
+            <div class="img-box">
+              <img src="img/card-imgs/3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="item-box">
+                <p class="location tag-text">Hampshire · England</p>
+                <div class="text-box">
+                  <p class="name">Rustic country retreat</p>
+                  <p class="price">£210pp</p>
+                </div>
+              </div>
+              <div class="item-box">
+                <p class="info">
+                  Step outside and take in the stunning views. Our cabin sits on
+                  a quiet and secluded property, providing the perfect setting
+                  for a peaceful retreat.
+                </p>
+
+                <div class="item-reviews">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <span>82 reviews</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="inspiration-cards section-card">
+      <div class="inner-box">
+        <h3 class="title">Inspiration for your next getaway</h3>
+        <div class="container">
+          <p class="sub-title">
+            We've curated some amazing experiences to help you find your next
+            getaway.
+          </p>
+          <a href="#" class="view-all">view all experiences</a>
+        </div>
+
+        <div class="cards-box">
+          <div class="card">
+            <div class="img-box">
+              <img src="img/card-imgs/4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="item-box">
+                <p class="tag-text">FOR THOSE WHO LOVE</p>
+                <p class="name">To Explore nature</p>
+              </div>
+              <div class="item-box">
+                <p class="info">
+                  Discover some of the most beautiful scenery - from the wonders
+                  of Snowdonia to the famous beauty of the Scottish Highlands.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="img/card-imgs/5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="item-box">
+                <p class="tag-text">FOR THOSE WHO WANT</p>
+                <p class="name">To Relax, rest & re-set</p>
+              </div>
+              <div class="item-box">
+                <p class="info">
+                  Experience mind and body connection through breathing
+                  exercises and relaxation with our Yoga inspired get away for
+                  you and the family.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-box">
+              <img src="img/card-imgs/6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <div class="item-box">
+                <p class="tag-text">FOR THOSE WHO HAVE</p>
+                <p class="name">Four-legged friends</p>
+              </div>
+              <div class="item-box">
+                <p class="info">
+                  When going on holiday nobody wants to put their dog in a
+                  kennel. So, lets keep the family together with our pet
+                  friendly cabins.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <img src="img/testimonial/Purple-woman.jpg" alt="" />
+      <div class="content-box">
+        <h2 class="title">A truly wonderful experience</h2>
+        <p class="info">
+          Brilliant for anyone looking to get away from the hustle and bustle of
+          city life or detox from their tech for a few days. I could have stayed
+          another week!
+          <span
+            >They really have thought about everything here down to the finest
+            details.</span
+          >
+        </p>
+        <div class="ratings">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span class="date">01 Feb 2023</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="who-we-are">
+      <div class="inner-box">
+        <div class="text-box">
+          <h3 class="title">Get ready to unwind</h3>
+          <p class="info">
+            A cabin getaway can be a wonderful way to relax and reconnect with
+            nature. Many cabin rentals are located in beautiful, secluded areas,
+            surrounded by trees and other natural beauty.
+            <span
+              >A cabin getaway can be a wonderful way to escape the hustle and
+              bustle of daily life and reconnect with nature.</span
+            >
+          </p>
+          <a href="#">Learn more <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div class="vid-box">
+          <img src="img/who-we-are/poster.png" alt="A video about us" />
+          <svg
+            class="control"
+            width="107"
+            height="105"
+            viewBox="0 0 107 105"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_bd_129_28)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M53.2769 98C80.3388 98 102.277 76.062 102.277 49C102.277 21.938 80.3388 0 53.2769 0C26.2149 0 4.27686 21.938 4.27686 49C4.27686 76.062 26.2149 98 53.2769 98ZM76.8037 50.9164C78.137 50.1466 78.137 48.2221 76.8037 47.4523L43.2906 28.1035C41.9572 27.3337 40.2906 28.296 40.2906 29.8356L40.2906 68.5332C40.2906 70.0728 41.9572 71.0351 43.2906 70.2653L76.8037 50.9164Z"
+                fill="white"
+                fill-opacity="0.3"
+                shape-rendering="crispEdges"
+              />
+              <path
+                d="M101.777 49C101.777 75.7858 80.0627 97.5 53.2769 97.5C26.491 97.5 4.77686 75.7858 4.77686 49C4.77686 22.2142 26.491 0.5 53.2769 0.5C80.0627 0.5 101.777 22.2142 101.777 49ZM77.0537 51.3495C78.7204 50.3872 78.7204 47.9816 77.0537 47.0193L43.5406 27.6705C41.8739 26.7082 39.7906 27.9111 39.7906 29.8356L39.7906 68.5332C39.7906 70.4577 41.8739 71.6605 43.5406 70.6983L77.0537 51.3495Z"
+                stroke="#989898"
+                stroke-opacity="0.47"
+                shape-rendering="crispEdges"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_bd_129_28"
+                x="-7.72314"
+                y="-12"
+                width="122"
+                height="122"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feGaussianBlur in="BackgroundImageFix" stdDeviation="6" />
+                <feComposite
+                  in2="SourceAlpha"
+                  operator="in"
+                  result="effect1_backgroundBlur_129_28"
+                />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="effect1_backgroundBlur_129_28"
+                  result="effect2_dropShadow_129_28"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect2_dropShadow_129_28"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="perks">
+      <div class="inner-box">
+        <div class="text-box">
+          <h2 class="title">Nourish the mind, body, and spirit.</h2>
+          <p class="info">
+            Many people find that the combination of being in a peaceful natural
+            setting and engaging in activities that nourish the mind, body, and
+            spirit leave them feeling rejuvenated and refreshed.
+          </p>
+          <button class="btn find-cabins">Find avilable cabins</button>
+        </div>
+        <div class="img-box">
+          <img src="img/perks/BG-image.jpg" alt="A Girl resting on a sofa" />
+        </div>
+      </div>
+    </section>
+
+    <section class="faqs">
+      <div class="inner-box">
+        <h3 class="title">Frequently asked questions</h3>
+        <ul class="content">
+          <li class="faq">
+            <div class="box">
+              <h6 class="faq-title">1. About Unwind Cabins</h6>
+              <p class="faq-question">
+                <span>&bull;</span> How long have you been in business?
+              </p>
+              <p class="faq-question">
+                <span>&bull;</span> Why did you start this journey?
+              </p>
+            </div>
+            <a href="#" class="box faq-link"
+              >About our cabins <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
+          <li class="faq">
+            <div class="box">
+              <h6 class="faq-title">2. Tell me about the cabin</h6>
+              <p class="faq-question">
+                <span>&bull;</span> What do i need to bring?
+              </p>
+              <p class="faq-question">
+                <span>&bull;</span> How do i get to the cabin?
+              </p>
+            </div>
+            <a href="#" class="box faq-link"
+              >Tell me more about the cabin
+              <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
+          <li class="faq">
+            <div class="box">
+              <h6 class="faq-title">3. Pets, family & friends</h6>
+              <p class="faq-question">
+                <span>&bull;</span> Please tell me I can bring my dog
+              </p>
+              <p class="faq-question">
+                <span>&bull;</span> How many people can your cabins accomodate?
+              </p>
+            </div>
+            <a href="#" class="box faq-link"
+              >Pets, family & friends <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
+        </ul>
+        <h6 class="extra-qn text">Still have a question?</h6>
+        <p class="text extra-qn-ans">
+          If you still have questions, contact a member of the team on
+          <a href="#" class="live-chat">live chat</a> and we'd be more than
+          happy to help.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="top-footer">
+        <img src="img/footer/footer-bg.jpg" alt="" />
+        <div class="text-box">
+          <h2 class="title">Escape from endless Zoom calls</h2>
+          <p class="info">
+            Discover the wonders of spending time offline and away from the
+            office with our 3 day weekend getaway cabin retreats.
+          </p>
+          <button class="btn find-getaway">Find the perfect getaway</button>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="all-lists">
+          <div class="list about-us">
+            <h6 class="list-title">About us</h6>
+            <div class="list-items-box">
+              <ul class="list-items">
+                <li class="items"><a href="#">Our story</a></li>
+                <li class="items"><a href="#">Why us</a></li>
+                <li class="items"><a href="#">How it works</a></li>
+                <li class="items"><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="list cabins-locations">
+            <h6 class="list-title">Our cabins</h6>
+            <div class="list-items-box">
+              <ul class="list-items first-list-items">
+                <li class="items"><a href="#">North of London</a></li>
+                <li class="items"><a href="#">Golden Hideaway</a></li>
+                <li class="items"><a href="#">Oak Treehouse</a></li>
+                <li class="items"><a href="#">Acacia Retreat</a></li>
+                <li class="items"><a href="#">Blue Lagoon</a></li>
+              </ul>
+              <ul class="list-items second-list-items">
+                <li class="items"><a href="#">South of London</a></li>
+                <li class="items"><a href="#">Lavender Retreat</a></li>
+                <li class="items"><a href="#">Butterfly Treehouse</a></li>
+                <li class="items"><a href="#">Mahogany Hideaway</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="list get-inspired">
+            <h6 class="list-title">Get inspired</h6>
+            <div class="list-items-box">
+              <ul class="list-items first-list-items">
+                <li class="items"><a href="#">Explore nature</a></li>
+                <li class="items"><a href="#">Hiking trails</a></li>
+                <li class="items"><a href="#">Swimming</a></li>
+                <li class="items"><a href="#">Fishing</a></li>
+                <li class="items"><a href="#">Boating</a></li>
+                <li class="items"><a href="#">Cycling</a></li>
+              </ul>
+              <ul class="list-items second-list-items">
+                <li class="items"><a href="#">Great food and drink</a></li>
+                <li class="items"><a href="#">Pubs</a></li>
+                <li class="items"><a href="#">Restaurants</a></li>
+                <li class="items"><a href="#">Food markets</a></li>
+                <li class="items"><a href="#">Picnics</a></li>
+              </ul>
+              <ul class="list-items third-list-items">
+                <li class="items"><a href="#">Rest, relax and re-set</a></li>
+                <li class="items"><a href="#">Spa treatments</a></li>
+                <li class="items"><a href="#">Hot tubs</a></li>
+                <li class="items"><a href="#">Nature trails</a></li>
+              </ul>
+              <ul class="list-items fourth-list-items">
+                <li class="items"><a href="#">for you and yours</a></li>
+                <li class="items"><a href="#">Solo or a couple</a></li>
+                <li class="items"><a href="#">Pet friendly</a></li>
+                <li class="items"><a href="#">Accessible cabins</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="list support">
+            <h6 class="list-title">Support</h6>
+            <div class="list-items-box">
+              <ul class="list-items first-list-items">
+                <li class="items"><a href="#">Help</a></li>
+                <li class="items"><a href="#">Contact us</a></li>
+                <li class="items"><a href="#">Privacy policy</a></li>
+                <li class="items"><a href="#">Terms of service</a></li>
+                <li class="items"><a href="#">Complaints policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h6 class="heading">Sign up to our Newsletter</h6>
+          <div class="join-box">
+            <p class="info">
+              For a weekly curated collection of 3 things you can watch, read or
+              listen to switch off from the busy everyday.
+            </p>
+            <div class="join">
+              <input
+                class="user-input"
+                type="text"
+                placeholder="james@thegaintpeach.com"
+              />
+              <input
+                class="btn join-btn"
+                type="submit"
+                value="Join the mailing list"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <h4 class="company-name">UNWIND<span>CABINS</span></h4>
+          <p class="copyright">
+            &copy; <span class="footer-year">2023</span> UnwindCabins
+          </p>
+          <div class="socials">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <i class="fa-regular fa-star"></i> -->
+  </body>
+</html>
